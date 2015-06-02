@@ -1,4 +1,5 @@
-function upper(name){
+function upper(string){
+	var n = string.toUpperCase();
 
-		return name;
+	return n;
 };
