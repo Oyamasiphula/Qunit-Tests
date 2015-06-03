@@ -39,9 +39,10 @@ QUnit.test("Testing sum_numbers function" ,function(assert){
 });
 
 QUnit.test("testing length function", function(assert){
-var result = length(5);
+	var string = "oyama";
+var result = length(string);
 //*is the result the same as expected?
-assert.equal(result.toString(),[6,7,8,9,10].toString());
+assert.equal(result,5);
 })
 
 QUnit.test("test upper function",function(assert){
@@ -63,3 +64,16 @@ QUnit.test("test hello list function",function(assert){
         assert.equal("hello World hello World ",result);
 });
 
+QUnit.test("test high_low function",function(assert){
+		var list = [2,3,4,90];
+		var result = high_low(list);
+             // To test my code expected results  
+        assert.equal(90,result);
+});
+
+QUnit.test("test high_low function",function(assert){
+		var list = [2,3,4,90];
+		var result = low(list);
+             // To test my code expected results  
+        assert.equal(2,result);
+});
