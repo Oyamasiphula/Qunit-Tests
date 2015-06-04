@@ -25,7 +25,12 @@
 	margin: 0;
 	padding: 0;
 }
-
+body{
+	opacity: .8;
+	background-image: url("http://www.coolwallpapers.org/photo/24898/3_D_wallpaper-311.jpg");
+	background-size: contain;
+  	background-repeat: inherit;
+}
 
 /** Header */
 
@@ -73,6 +78,7 @@
 	background-color: #2B81AF;
 	color: #FFF;
 	text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 1px;
+
 }
 
 #qunit-modulefilter-container {
@@ -164,6 +170,7 @@
 	text-align: right;
 	vertical-align: top;
 	padding: 0 0.5em 0 0;
+
 }
 
 #qunit-tests td {
@@ -180,6 +187,7 @@
 	background-color: #E0F2BE;
 	color: #374E0C;
 	text-decoration: none;
+
 }
 
 #qunit-tests ins {
@@ -209,13 +217,15 @@
 	border-left: 10px solid #C6E746;
 }
 
-#qunit-tests .pass                          { color: #528CE0; background-color: #D2E0E6; }
+#qunit-tests .pass                          { color: #762D54; background-color: salmon; 
+ }
 #qunit-tests .pass .test-name               { color: #366097; }
+
 
 #qunit-tests .pass .test-actual,
 #qunit-tests .pass .test-expected           { color: #999; }
 
-#qunit-banner.qunit-pass                    { background-color: #C6E746; }
+#qunit-banner.qunit-pass                    { background-color: #C6E746;  }
 
 /*** Failing Styles */
 

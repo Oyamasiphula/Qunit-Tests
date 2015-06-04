@@ -77,3 +77,16 @@ QUnit.test("test high_low function",function(assert){
              // To test my code expected results  
         assert.equal(2,result);
 });
+
+QUnit.test("test count_words function",function(assert){        
+	var result =
+countWords("I was in mbekweni and I just saw a cat passing by and I was so scared!");              // To test my code expected results
+assert.equal(17,result); 
+});
+
+QUnit.test("test sum_word_len function",function(assert){
+var result =
+sum_word("I was in mbekweni and I just saw a cat passing by and I was so scared!");  
+             // To test my code expected results  
+        assert.equal(70,result);
+});
