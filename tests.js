@@ -90,3 +90,41 @@ sum_word("I was in mbekweni and I just saw a cat passing by and I was so scared!
              // To test my code expected results  
         assert.equal(70,result);
 });
+
+QUnit.test("test longest word function",function(assert){
+var result =
+longest_word("I was in mbekweni and I just saw a cat passing by and I was so scared!");  
+             // To test my code expected results  
+        assert.equal("mbekweni",result);
+});
+
+QUnit.test("test shortest word function",function(assert){
+	var result =
+	shortest_word("I was in mbekweni and I just saw a cat passing by and I was so scared!");  
+             // To test my code expected results  
+        assert.equal(["I",1],result);
+});
+
+QUnit.test("test word length function",function(assert){
+
+	var averages = {
+			roundedUp: 5,
+			roundedDown: 4
+	};
+	var result = word_length("Im from mbekweni");  
+             // To test my code expected results  
+    assert.deepEqual(result,averages);
+});
+
+QUnit.test("test Average function",function(assert){
+	var result = avg("I was in mbekweni and I just saw a cat passing by and I was so scared!");  
+    // To test my code expected results  
+    assert.deepEqual(result, 4);
+});
+
+QUnit.test("test start function",function(assert){
+var result =
+start("Im from mbekweni");  
+             // To test my code expected results  
+        assert.equal(result,4.666666666666667);
+})

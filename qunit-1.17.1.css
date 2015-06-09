@@ -217,9 +217,9 @@ body{
 	border-left: 10px solid #C6E746;
 }
 
-#qunit-tests .pass                          { color: #762D54; background-color: salmon; 
+#qunit-tests .pass                          { color: #762D54; background-color: dodgerblue; opacity: 0.8 
  }
-#qunit-tests .pass .test-name               { color: #366097; }
+#qunit-tests .pass .test-name               { color: #FFF8E9; }
 
 
 #qunit-tests .pass .test-actual,
